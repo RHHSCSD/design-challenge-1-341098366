@@ -52,15 +52,15 @@ Print price per student
 */  
 
 /**************** TEST CASES ************************
-*Test      Input                                   Desired Ouput
+*Test      Input                                   Desired Output                Actual Output
 *        Arduino        RaspberryPI     VR
-*      not an int       not an int     not an int     program crash
-*           15              20          65              $67.50 per student
-*           15              20          66              $65.02 per student
-*           16              21          0               $60.70 per student
-*           1               1           1               $65.00 per student
-*           0               0           0               $0.00 per student
-*           -1              -1          -1              nice try buckaroo
+*      not an int       not an int     not an int     program crash             program crash
+*           15              20          65              $67.50 per student      $67.50 per student
+*           15              20          66              $65.02 per student      $65.02 per student
+*           16              21          0               $60.70 per student      $60.70 per student
+*           1               1           1               $65.00 per student      $65.00 per student
+*           0               0           0               $0.00 per student       $0.00 per student
+*           -1              -1          -1              nice try buckaroo       nice try buddy
 ***************************************************/
 public class DesignProjectOne {
 
